@@ -1,0 +1,35 @@
+This repository contains the combined HIRES spectrum, Cloudy input files and voigt profile parameters to help reproduce the analysis of the paper "Metal-Poor, Cool Gas in the Circumgalactic Medium of a z = 2.4 Star-Forming Galaxy: Direct Evidence for Cold Accretion?" by Crighton et al. There's no need to have git installed to download the repository: click on 'Downloads' at the right of this page and you can download the whole repository as a .zip file.
+
+If you need any help understanding what was done for the paper, or getting the code to run, please contact me (neilcrighton .at. gmail .dot. com). If you find any of the files in the repository useful, please let me know by email. If you use any of the code or data for a publication, please cite the paper.
+
+The files included are:
+
+J1444.txt.gz
+
+  The combined HIRES spectrum, with columns wavelength (Angstroms),
+  flux, 1 sigma error, continuum.
+
+cloudy_input/
+
+  This contains two cloudy input files, one with an ionizing
+  background from the Haardt-Madau UV-background alone, the other for
+  a Haardt-Madau background in addition to a local starburst spectrum
+  generated with starburst99
+  (http://www.stsci.edu/science/starburst99/docs/default.htm). For the
+  paper, many such models were generated varying the hden and metals
+  values to create a grid of models.
+ 
+  Similar models were generated for the partial LLS components by
+  using lower stopping NHI values.
+
+vpfit/lo.f26
+
+  Column densities, redshifts and b parameters of the components used
+  to fit the low-ionization transitions, and the fitting regions
+  used. This is in VPFIT's (http://www.ast.cam.ac.uk/~rfc/vpfit.html)
+  fort.26 format: columns give the ion name, redshift and error, b
+  parameter and error, and log10(column density) and error. See the
+  VPFIT manual for more details. The values and errors in this file
+  are not necessary exactly the same as those listed in the paper, but
+  they should give a good idea of the velocity structure we used to
+  fit the low-ion absorption.
