@@ -1,6 +1,6 @@
-This repository contains the combined HIRES spectrum, Cloudy input files and voigt profile parameters to help reproduce the analysis of the paper "Metal-Poor, Cool Gas in the Circumgalactic Medium of a z = 2.4 Star-Forming Galaxy: Direct Evidence for Cold Accretion?" by Crighton et al. There's no need to have git installed to download the repository: click on 'Downloads' at the right of this page and you can download the whole repository as a .zip file.
+This repository contains the combined HIRES spectrum, Cloudy input files and voigt profile parameters to help reproduce the analysis of the paper "Metal-Poor, Cool Gas in the Circumgalactic Medium of a z = 2.4 Star-Forming Galaxy: Direct Evidence for Cold Accretion?" by Crighton et al. There's no need to have git installed to download the repository: click on 'Download ZIP' at the right of this page and you can download the whole repository as a .zip file.
 
-If you need any help understanding what was done for the paper, or getting the code to run, please contact me (neilcrighton .at. gmail .dot. com). If you find any of the files in the repository useful, please let me know by email. If you use any of the code or data for a publication, please cite the paper.
+If you need any help understanding what was done for the paper, please contact me (neilcrighton .at. gmail .dot. com). If you find any of the files in the repository useful, please let me know by email. If you use any of the code or data for a publication, please cite the paper (http://adsabs.harvard.edu/abs/2013arXiv1307.6588C).
 
 The files included are:
 
