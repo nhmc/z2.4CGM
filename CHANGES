@@ -1,0 +1,18 @@
+The following changes were made between the version first posted on
+astro-ph and the final accepted version:
+
+ - In section 2.2 we added a sentence saying that there is no evidence
+   for unresolved, saturated components or partial covering.
+
+ - We added HI, DI and many more metal transitions to Figure 2, to
+   make the velocity structure and data quality more clear.
+
+ - We made clear at the beginning of section 4 that the metallicity of
+   the D component measured using Cloudy models does not use N(OI).
+
+ - We slightly adjusted the column density upper limits for some high
+   ions to be more conservative. These changes do not significantly
+   affect our Cloudy models.
+
+The main results and conclusions are unchanged between the two
+versions.
